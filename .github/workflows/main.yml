@@ -12,7 +12,7 @@ jobs:
         
       - name: APIMATIC Transformer
         uses: apimatic/apimatic-transformer-action@v0.1
-        id: wsdl
+        id: raml
         with:
          auth: ${{ secrets.AUTH }}
          inputURL: 'https://petstore.swagger.io/v2/swagger.json'
